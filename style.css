@@ -1,0 +1,602 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:candara;
+} 
+
+
+
+
+
+
+.log {
+	width: 700px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.log_in{
+	width: 500px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+
+.log input{
+	margin-top: 15px ;
+
+}
+
+.log_in input{
+	margin-top: 20px ;
+
+}
+
+.log label{
+	margin-top: -5px;
+	display: none;
+}
+
+.log_in label{
+	margin-top: -5px;
+	display: none;
+}
+
+
+.profile{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+
+}
+
+
+
+.manu_bar{
+	width: 100%;
+	height: 60px;
+	background-color: #34D399;
+}
+
+.manu_bar .menu_left{
+	width: 80%;
+	float: left;
+
+}
+
+.manu_bar .menu_left .menu_logo{
+	width: 45%;
+	float: left;
+}
+
+
+
+
+
+.manu_bar .menu_left .menu_logo img{
+	width: 80px;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 5px;
+	float: left;
+	border-radius: 20px;
+}
+
+
+
+.manu_bar .menu_left .menu_logo h3{
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+	margin-left: 121px;
+	position: relative;
+	top: 14px;
+	left: 0px;
+
+}
+
+
+.manu_bar .menu_left .menu_info{
+	width: 55%;
+	float: right;
+}
+
+.manu_bar .menu_left .menu_info ul li{
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+
+
+.manu_bar .menu_left .menu_info ul li img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+
+}
+
+
+
+.manu_bar .menu_right{
+	width: 20%;
+	float: right;
+}
+
+.manu_bar .menu_right h3{
+	font-size: 20px;
+	color: #FFF;
+	margin-top: 17px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.manu_bar .menu_right .uers_logo img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 35px;
+	margin-top: 5px;
+}
+
+.tech_info{
+	width: 100%;
+	margin-top: 65px;
+	position: absolute;
+
+}
+
+.mid{
+	width: 80%;
+	margin: auto;
+}
+
+.tech_information{
+	width: 25%;
+	float: left;
+	background-color: #F5F5F5;
+	padding: 20px 10px;
+}
+
+.tech_information img{
+	display: block;
+	margin: 20px auto;
+	width:200px;
+	height:200px; 
+	border-radius:50%;
+}
+
+.tech_information  h3{
+
+	color: #EF6580;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.tech_information p{
+	color: #66668C;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+.tech_information p span{
+	font-weight: bold;
+}
+
+.student_info_setup{
+	width: 70%;
+	float: right;
+}
+
+.student_info_setup .tech_img{
+	width: 100%;
+	height: 250px;
+	background-color:  #F5F5F5;
+	
+}
+
+
+.student_info_setup .tech_img img{
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	top: 40px;
+	right: 0px;
+	left: 0px;
+
+
+}
+
+.student_data{
+	width: 100%;
+	height: 550px;
+	margin-top: 10px;
+}
+
+.student_data .table_left{
+	width: 48%;
+	float: left;
+}
+
+.student_data .table_right{
+	width: 48%;
+	float: right;
+}
+
+.student_data .table_left label, .student_data .table_right label{
+	display: block;
+	font-size: 20px;
+	color: #c9c9c9;
+	margin-top: 5px;
+}
+
+.student_data .table_left input, .student_data .table_right input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 7px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+
+
+.data_insert_btn{
+	width: 100%;
+	height: 20px;
+	display: table;
+	margin: 20px auto;
+
+}
+
+.data_insert_btn input{
+	display: table;
+	width: 40%;
+	color: #FFF;
+	font-size: 20px;
+	padding: 10px 15px;
+	background-color: #34D399;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 25px auto;
+}
+
+.tech_information p a{
+	display: block;
+	margin-top: 20px;
+	text-decoration: none;
+	background-color: #34D399;
+	color: #FFF;
+	padding: 10px ;
+}
+
+
+.student_result{
+	width: 100%;
+}
+.mid{
+	width: 80%;
+	margin: auto;
+}
+
+.student_top_header{
+	width: 100%;
+	height: 300px;
+}
+
+
+.student_top_header h2{
+	text-align: center;
+	color: #c9c9c9;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.stu_image{
+	width: 20%;
+	margin: auto;
+	float: left;
+}
+
+.stu_image img{
+	display: block;
+	margin: 20px auto;
+	width: 175px;
+	height: 175px;
+	border-radius: 50px;
+	outline: 5px solid #34D399;
+}
+
+
+
+
+.stu_info{
+	width: 60%;
+	margin: auto;
+	float: left;
+}
+
+.stu_info h1{
+	text-align: center;
+	font-size: 28px;
+	color: grey;
+	margin-top: 10px;
+
+
+}
+
+.stu_info h3{
+	text-align: center;
+	font-size: 18px;
+	color: grey;
+
+}
+
+.stu_info h2{
+	text-align: center;
+	font-size: 23px;
+	color: grey;
+	margin-top: 55px;
+
+}
+
+.stu_info h4{
+	text-align: center;
+	font-size: 22px;
+	color: grey;
+	margin: 3px auto;
+
+}
+
+
+
+.clg_img{
+	width: 20%;
+	margin: auto;
+	float: left;
+}
+
+.clg_img img{
+	display: block;
+	margin: 20px auto;
+	width: 175px;
+	height: 175px;
+	border-radius: 50px;
+	outline: 5px solid #34D399;
+}
+
+.student_info{
+	width: 100%;
+	height: 165px;
+	margin-top: 20px;
+}
+
+.student_info .student_left{
+	width: 50%;
+	float: left;
+}
+
+.student_info .student_left table {
+	width: 100%;
+}
+
+.student_info .student_left table tr{
+	background-color: #fff;
+	color: #333;
+}
+
+.student_info .student_left table tr td{
+	padding: 5px;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+.student_info .student_left table tr td span{
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+.student_info .student_right{
+	width: 50%;
+	float: left;
+}
+
+.student_info .student_right table {
+	width: 100%;
+}
+
+.student_info .student_right table tr{
+	background-color: #fff;
+	color: #333;
+}
+
+.student_info .student_right table tr td{
+	padding: 5px;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+.student_info .student_right table tr td span{
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.student_result_table{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.student_result_table table{
+	width: 100%;
+	margin-top: 120px;
+}
+
+.student_result_table table thead tr{
+	background-color: #333;
+	color: #FFF;
+
+
+}
+
+.student_result_table table thead tr th{
+	padding: 10px;
+
+}
+
+.student_result_table table tbody tr{
+	color: #333;
+	background-color: #FFF;
+	margin: 5px;
+}
+
+.student_result_table table tbody tr:nth-child(even){
+	background-color: #333;
+	color: #fff;
+
+}
+
+
+
+.student_result_table table tbody tr td{
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid  #333;
+}
+
+.student_data_two{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.student_data_one h2{
+	font-size:30px;
+	color: #32CE96;
+	font-family: candara;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+}
+.student_data_two .student_text{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	margin: 20px 0px;
+}
+
+.student_data_two{
+	width: 100%;
+}
+
+
+
+ .student_data_two .student_text h2{
+	width: 100%;
+	height: 20px;
+	font-size:30px;
+	color: #32CE96;
+	font-family: candara;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.form_input_pp{
+	padding: 20px;
+
+}
+
+.form_input_pp input{
+	border: 1px solid #34D399 !important;
+}
+
+
+
+
+
+.result_search{
+	width:100%;
+	margin: 100px 0px;
+}
+
+.result_search .mid {
+	width: 80%;
+	margin: auto;
+}
+
+.result_search .mid .result_box{
+	width: 400px;
+	padding: 50px;
+	margin: 20px auto;
+	border: 1px solid #34D399;
+	border-radius: 20px;
+}
+
+.result_search .mid .result_box h2{
+	font-size: 30px;
+	margin: 20px 0px;
+	color: #34D399;
+	text-align: center;
+
+
+}
+
+.result_search .mid .result_box p{
+	color: #34D399;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.result_search .mid .result_box label{
+	margin-top: 6px;
+	display: block;
+}
+
+
+.result_search .mid .result_box  select {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	margin-top: 7px;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #34D399;
+
+}
+
+.result_search .mid .result_box input{
+	display: block;
+	width: 100%;
+	margin: 7px 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #34D399;
+}
+
+.result_search .mid .result_box input[type='submit']{
+	width: 30%;
+	background-color: #34D399;
+	border-radius: 10px;
+	margin-top: 5px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+
+
